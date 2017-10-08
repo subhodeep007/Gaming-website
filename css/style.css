@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+			margin:0;
+			padding:0;
+			}
+			
+			
+				body{
+					margin:0;
+					
+				}
+			
+				
+			h2{
+				text-align:center;
+				color:#CCC;
+				text-shadow:4px 4px 5px #993333;
+			}
+			video {
+					position:absolute;
+					top:50%;
+					left:50%;
+					transform:translate(-50%,-50%);
+					min-width:100%;
+					min-height:100%;
+					width:auto;
+					height:auto;
+					z-index:1;
+					background:transparent;
+				}
+			.text {
+					z-index:2;
+					position:absolute;
+					color:#661F78;
+					text-align-last:center;
+					background:rgba(0,0,0,0.4);
+					top:0;
+					left:0;
+					right:0;
+					bottom:0;
+					
+				}
+				.login {
+					z-index:3;
+					position:relative;
+				}
+				.banner {
+					z-index:4;
+					position:relative;
+				}
+				input {
+					padding:07px 24px;
+				}
+				.button {
+					padding:09px 24px;
+					color:#FFF;
+					background-color:#33CCD9;
+					border:0;
+				}
+			.container{
+				width:100%;
+			}
+			.wrapper
+			{
+				margin: 0 auto;
+				width: 900px;
+				
+			}
+             li{
+				 float:left; 
+             }
+			 ul{
+				 margin:0;
+				 padding:0;
+				 background-color:#555;
+				 overflow:hidden;
+				 position:fixed;
+				 top:0;
+				 right:0;
+				 left:0;
+				 } 
+				 li a{
+				color:#FFF;
+				text-align:center;
+				padding:12px;
+				text-decoration:none;
+				display:inline-block;
+				font-size:36px;
+				font-family:Times New Roman, Times, serif; font-size-adjust:!important;
+				}
+				li a.active
+				{
+					background-color:#804040;
+					color:#FFF;
+				}
+				li a:hover:not(.active)
+				 {
+   					background-color: #111111;
+					color:#FFF;	
+					}
+				
+					article
+					{
+						width:900px;
+						height:auto;
+						text-align:center;
+					}
+					
+					article img {
+						float:right;
+						position:inherit;
+									}
+					.article p,.canals,.article1 p {
+					font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+					color:#515151;
+					}
+					footer
+					{
+						width:900px;
+						height:150px;
+						text-align:center;
+						color:#666;
+					}
+
